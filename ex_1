@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Olá</h1>
+        <h2>Bom dia</h2>
+        <h3>Boa tarde</h3>
+        <h4>Boa noite</h4>
+        <h5>Tudo bem</h5>
+        <h6>tchau</h6>
+    </header>
+        <p>Lista ordenada</p>
+        <ol>
+            <li>chocolate</li>
+            <li>açúcar</li>
+            <li>farinha</li>
+            <li>leite</li>
+            <li>ovos</li>
+        </ol>
+    <p>Lista não ordenada</p>
+    <ul>
+        <li>arroz</li>
+        <li>macarrão</li>
+        <li>feijão</li>
+        <li>carne</li>
+        <li>lasanha</li>
+    </ul>
+        <img src="https://i.pinimg.com/736x/6c/94/f3/6c94f36e1b408b1c68a41a1b371ee099.jpg" alt="Imagem de cachorro" style="height:400px;">
+    <a href="https://br.pinterest.com/">Link do Pinterest</a>
+    <br>
+    <a href="#Olá">link para Olá</a>
+    <br>
+    <a name="Olá">Olá<a>
+    <form>
+        <input type="text">
+        <input type="radio">
+        <input type="submit">
+        <br>
+    </form>
+    <h4>Tabela</h4>
+    <table>
+        <tr>
+            <th>Dia 1</th>
+            <th>Dia 2</th>
+            <th>Dia 3</th>
+        </tr>
+         <tr>
+             <td>Bom dia</td>
+            <td>Boa tarde</td>
+             <td>Boa noite</td>
+         </tr>
+     </table>
+        <p>Risada maléfica:</p>
+        <audio controls>
+            <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg">
+        </audio>
+        <p>Vídeo aleatório que eu encontrei no git hub, que animação horrorosa</p>
+        <video controls height="250">
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qbMNR_MjgFI?si=c1M0vdD3mIIeoLzC" title="Pica-pau bolo de murango" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>    
+        </iframe>
+</body>
+</html>
