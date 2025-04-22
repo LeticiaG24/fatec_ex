@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    background-color: #8a85b6;
+}
+header > button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.aboutme {
+    background-image: url(/starsbackground2.jpg);
+    height: 250px;
+}
+.section2 {
+    background-color: #0e0f20;
+}
+.section2 >h2 {
+    text-align: center;
+    color: white;
+}
+.curriculum {
+    color: #8a85b6;
+}
+.section2> button {
+    cursor: pointer;
+    background-color: #120947;
+    color:white;
+    border: solid white;
+    border-radius: 5px;
+    padding: 8px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.proj {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.proj > button {
+    cursor: pointer;
+    background-color: #120947;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+}
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 10px;
+}
+.skills > div {
+    grid-row: 2/3;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #8a85b6;
+    color: #0e0f20;
+}
+.contactme {
+    background-color: #8a85b6;
+    display: flex;
+    justify-content: center;
+}
